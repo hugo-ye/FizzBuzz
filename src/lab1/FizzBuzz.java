@@ -9,8 +9,9 @@ class FizzBuzz {
         doFizzBuzz(1);
     }
 
-    private static void doFizzBuzz(int i) {
-        while (i < 100) {
+    public static void doFizzBuzz(int n) {
+        int i = 1;
+        while (i < n) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
