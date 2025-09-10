@@ -2,15 +2,15 @@ package lab1;
 
 /**
  * Solve the lab1.FizzBuzz challenge.
+ * ok nyt
  */
 class FizzBuzz {
 
     public static void main(String[] args) {
-        doFizzBuzz();
+        doFizzBuzz(1);
     }
 
-    private static void doFizzBuzz() {
-        int i = 0;
+    private static void doFizzBuzz(int i) {
         while (i < 100) {
 
             // Find out which numbers divide i.
